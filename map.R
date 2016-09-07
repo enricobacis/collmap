@@ -4,9 +4,9 @@ library(maps)
 library(ggmap)
 library(geosphere)
 
-outfile <- 'output.pdf'
-geo_infile <- 'geo.csv'  # if it does not exist will be created
-atenei_infile <- 'atenei.csv'
+outfile       <- 'output.pdf'
+geo_infile    <- 'data/geo.csv'  # if it does not exist will be created
+atenei_infile <- 'data/atenei.csv'
 
 # add custom fixes
 f_ateneo <- c("LIUC - CASTELLANZA", "Scuola Superiore Sant'Anna", "Cattolica del Sacro Cuore", "TUSCIA", "Univ. Telematica GIUSTINO FORTUNATO", "Politecnica delle MARCHE", "ROMA TRE", "SALENTO", "Univ. Telematica GUGLIELMO MARCONI", "Univ. Telematica Internazionale UNINETTUNO", "Univ. Telematica E-CAMPUS", "Univ. Telematica UNITELMA SAPIENZA", "Univ. Telematica PEGASO")
