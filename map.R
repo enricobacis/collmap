@@ -4,7 +4,7 @@ library(maps)
 library(ggmap)
 library(geosphere)
 
-outfile       <- 'output.pdf'
+outfile       <- 'output.svg'
 geo_infile    <- 'data/geo.csv'  # if it does not exist will be created
 atenei_infile <- 'data/atenei.csv'
 
@@ -42,7 +42,7 @@ if (file.exists(geo_infile)) {
 }
 
 print('opening file for writing')
-pdf(outfile)
+svg(outfile)
 
 print('drawing base map')
 map(regions="Italy", col="#191919", fill=TRUE, bg="#000000", lwd=0.25)
