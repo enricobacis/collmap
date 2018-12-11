@@ -9,5 +9,5 @@ Collaboration Map
 
 <p align="center">
 Collaboration graph of italian academic publications on Software Engineering
-<img src="https://raw.github.com/enricobacis/collmap/master/output.svg" />
+<img src="./output.svg" />
 </p>
